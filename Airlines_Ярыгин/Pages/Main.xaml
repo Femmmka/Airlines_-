@@ -12,9 +12,9 @@
         <Label Content="Поиск дешёвых авиабилетов" HorizontalAlignment="Center" FontSize="16" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="280,110,280,307.6" RenderTransformOrigin="0.54,-0.498"/>
         <Label Content="Лучший способ купить авиабилеты дёшево" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="315,153,315,275.6" RenderTransformOrigin="0.54,-0.498" FontSize="8"/>
         <Label Content="Откуда:" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="280,196,280,232.6" RenderTransformOrigin="0.54,-0.498" FontSize="8" Width="240"/>
-        <TextBox Width="240" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="280,217,280,207.6"/>
+        <TextBox x:Name="from" Width="240" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="280,217,280,207.6"/>
         <Label Content="Куда:" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="280,247,280,181.6" RenderTransformOrigin="0.54,-0.498" FontSize="8" Width="240"/>
-        <TextBox Width="240" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="280,268,280,156.6"/>
-        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25" Content="Найти" Margin="0,298,280,0" Background="#FFFF4000" Foreground="White"/>
+        <TextBox x:Name="to" Width="240" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="280,268,280,156.6"/>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25" Content="Найти" Margin="0,298,280,0" Background="#FFFF4000" Foreground="White" Click="Search"/>
     </Grid>
 </Page>
